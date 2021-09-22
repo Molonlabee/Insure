@@ -332,7 +332,7 @@ padding-right: 35px;
     padding-bottom: 20px;
 }
 .attribution{
-    font-size: 12px;
+    font-size: 9px;
     text-align: center;
     padding: 60px 0px 2px;
     background-color: var(--Very-Light-Gray);
@@ -340,7 +340,7 @@ padding-right: 35px;
 }
 .attribution a{
     color: var(--Very-Dark-Violet);
-    font-size: 10px;
+    font-size: 9px;
     cursor: pointer;
 }
 
