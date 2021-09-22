@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Insure landing page</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header__navbar">
+      <div class="header__navbar-logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="header__navbar-menu">
+        <a href="#">How we work</a>
+        <a href="#">Blog</a>
+        <a href="#">Account</a>
+        <a href="#">View plans</a>
+      </div>
+      <!-- mobile-menu -->
+      <button onclick=toggle() id='ham-button' class="ham-button">
+        <img src="/images/icon-hamburger.svg">
+      </button>
+    </div>
+    <div class="header__mobile-menu" id="header__mobile-menu">
+      <a href="#">How we work</a>
+      <a href="#">Blog</a>
+      <a href="#">Account</a>
+      <a href="#">View plans</a>
+    </div>
+  </header>
+  <!-- JUMBOTRON-ONE -->
+  <section id="jumbotron">
+    <div class="jumbotron__container">
+      <img class="jumbotron__container-left" src="images/bg-pattern-intro-left-desktop.svg">
+      <div class="jumbotron__container-content">
+        <div class="jumbotron__container-content-info">
+          <img class="jumbotron__container-left-mobile" src="images/bg-pattern-intro-left-mobile.svg">
+          <div class="jumbotron__container-content-info-line"></div>
+          <h1>Humanizing</h1>
+          <h1>your insurance.</h1>
+          <p>Get your life insurance coverage easier and faster. We blend our expertise
+            and technology to help you find the plan that’s right for you. Ensure you
+            and your loved ones are protected.</p>
+          <a href="#">View plans</a>
+          <img class="jumbotron__container-right-mobile" src="images/bg-pattern-intro-right-mobile.svg">
+        </div>
+        <div class="jumbotron__container-content-image">
+          <img src="/images/image-intro-desktop.jpg">
+          <!-- <img class="jumbotron__img-mobile" src="images/image-intro-mobile.jpg"> -->
+        </div>
+      </div>
+      <img class="jumbotron__container-right" src="images/bg-pattern-intro-right-desktop.svg">
+    </div>
+    <div class="jumbotron__white-bg"></div>
+  </section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about__container">
+      <div class="jumbotron__container-content-info-line"></div>
+      <h1>We’re different</h1>
+      <div class="about__container-info">
+        <div class="about__container-info-section">
+          <img src="/images/icon-snappy-process.svg">
+          <h2>Snappy Process</h2>
+          <p>Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.</p>
+        </div>
+        <div class="about__container-info-section">
+          <img src="/images/icon-affordable-prices.svg">
+          <h2>Affordable Prices</h2>
+          <p>We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.</p>
+        </div>
+        <div class="about__container-info-section">
+          <img src="/images/icon-people-first.svg">
+          <h2>People First</h2>
+          <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- INFO-LINK -->
+  <section id="info_link">
+    <div class="info_link__container">
+      <div class="info_link__container-header">
+        <h1>Find out more <br> about how we work</h1>
+      </div>
+      <div class="info_link__container-btn">
+        <a href="#">How we work</a>
+      </div>
+      <div class="info_link__container-img">
+        <img class="desk-img" src="/images/bg-pattern-how-we-work-desktop.svg">
+        <img class="mobile-img" src="/images/bg-pattern-how-we-work-mobile.svg">
+      </div>
+    </div>
+  </section>
+<!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer__container">
+      <div class="footer__socials">
+        <div class="footer__socials-logo">
+          <img src="/images/logo.svg">
+        </div>
+        <div class="footer__socials-icons">
+          <a href="#"><img src="/images/icon-facebook.svg"></a>
+          <a href="#"><img src="/images/icon-twitter.svg"></a>
+          <a href="#"><img src="/images/icon-pinterest.svg"></a>
+          <a href="#"><img src="/images/icon-instagram.svg"></a>
+        </div>
+      </div>
+      <div class="footer__list">
+        <ul>
+          <li>Our company</li>
+          <li>How we work</li>
+          <li>Why Insure?</li>
+          <li>View plans</li>
+          <li>Reviews</li>
+        </ul>
+        <ul>
+          <li>Help me</li>
+          <li>FAQ</li>
+          <li>Terms of use</li>
+          <li>Privacy policy</li>
+          <li>Cookies</li>
+        </ul>
+        <ul>
+          <li>Contact</li>
+          <li>Sales</li>
+          <li>Support</li>
+          <li>Live chat</li>
+        </ul>
+        <ul>
+          <li>Others</li>
+          <li>Careers</li>
+          <li>Press</li>
+          <li>Licenses</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+    Coded by <a href="https://www.janayahernandez.com" target="_blank">Janaya Hernandez</a>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
